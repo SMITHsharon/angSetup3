@@ -25,11 +25,38 @@
 
 		<!-- Collect the nav links, forms, and other content for toggling -->
 		<div class="collapse navbar-collapse">
-			<ul class="nav navbar-nav navbar-right" ng-repeat="navLink in navItems">
+			<!-- <ul class="nav navbar-nav navbar-right" ng-repeat="navLink in navItems">
 				<li><a href="#" >{{navLink.name}}</a></li>
+			</ul> -->
+			<ul class="nav navbar-nav navbar-right" ng-model="value">
+				<!-- <li><a id="animalID" href="#" ng-click="showAnimal()">Lauren's Fave Animal</a> -->
+				<li><a id="animalID" href="#" ng-click="value=1">Lauren's Fave Animal</a></li>
+				<li><a id="foodsID" href ng-click="value = 2">Fave Foods</a></li>
 			</ul>
 		</div> <!-- .collapse -->
 	</nav> <!-- ng-controller -->
+
+
+	<div ng-controller="ItemCtrl">
+
+		<div class="buttonDiv">
+			<ul>
+				<li><button class="btn btn-default" ng-click="showAnimal()">Lauren's Fave Animal</button></li>
+				<li><button class="btn btn-default" ng-click="showFoods()">Fave Foods</button></li>
+			</ul>
+		</div>
+
+
+		<div ng-show="showAnimalImage">
+			<div class="row">
+				<div class="col-xs-3 col-xs-offset-3">
+
+					<img class="faveAnimal img-circle" src="/images/inflated 3.jpeg">
+
+				</div> <!-- .col -->
+			</div> <!-- .row -->
+		</div> <!-- .ng-show --> 
+	</div> <!-- ng-controller -->
 
 
 
