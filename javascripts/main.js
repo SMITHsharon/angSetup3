@@ -33,6 +33,7 @@ app.controller("ItemCtrl", ($scope) => {
 
 	$scope.showAnimal = () => {
 		$scope.showAnimalImage = true;
+		$scope.showFoodList = false;
 	};
 
 
