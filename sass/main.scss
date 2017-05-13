@@ -1,9 +1,10 @@
 @import "fonts";
 
 body {
+
+	font: 100%, $font-stack;
 	background-size: cover;
 	background-image: url("/images/lioness background.jpeg");
-	font: 100%, $font-stack;
 }
 
 
@@ -20,6 +21,7 @@ body {
 
 	.img-circle {
 		margin-top: 60px;
+		width: 100%;
 	}
 }
 
@@ -27,8 +29,10 @@ body {
 .foodPanel {
 
 	background-image: url("/images/amber background.jpeg");
+	opacity: 0.6;
 
 	.foodText {
 		text-align: center;
+		font-weight: 900;
 	}
 }
