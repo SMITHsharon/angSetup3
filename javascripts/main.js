@@ -43,4 +43,9 @@ app.controller("ItemCtrl", ($scope) => {
 		$scope.showFoodList = true;
 	};
 
+	$scope.clearAll = () => {
+		$scope.showAnimalImage = false;
+		$scope.showFoodList = false;
+	};
+
 });

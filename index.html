@@ -3,6 +3,7 @@
 	<meta charset="UTF-8">
 	<title>NSS Lauren's Fave Animals</title>
 
+	<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Josefin+Sans" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="./lib/bower_components/bootstrap/dist/css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="./styles/main.css">
@@ -40,22 +41,25 @@
 	<div ng-controller="ItemCtrl">
 
 		<div class="buttonDiv">
-			<ul>
-				<li><button class="btn btn-default" ng-click="showAnimal()">Lauren's Fave Animal</button></li>
-				<li><button class="btn btn-default" ng-click="showFoods()">Fave Foods</button></li>
-			</ul>
-		</div>
-
-
-		<div ng-show="showAnimalImage">
 			<div class="row">
-				<div class="col-xs-3 col-xs-offset-3">
+				<div class="col-xs-2">
+					<ul>
+						<li><button class="btn btn-default" ng-click="showAnimal()">Lauren's Fave Animal</button></li>
+						<li><button class="btn btn-default" ng-click="showFoods()">Fave Foods</button></li>
+						<li><button class="btn btn-default" ng-click="clearAll()">Clear</button></li>
+					</ul>
+				</div>  <!-- .col -->
+			
+
+
+			<div ng-show="showAnimalImage">
+				<div class="col-xs-3 col-xs-offset-2 animalDiv">
 
 					<img class="faveAnimal img-circle" src="/images/inflated 3.jpeg">
 
 				</div> <!-- .col -->
-			</div> <!-- .row -->
-		</div> <!-- .ng-show --> 
+			</div> <!-- .ng-show --> 
+		</div> <!-- .row -->
 
 
 		<div ng-show="showFoodList">
@@ -63,11 +67,11 @@
 				<div class="row">
 					<div class="panel panel-default foodPanel">
 						<div class="panel-body foodText">
-							<div class="col-xs-1 col-xs-offset-1">*</div>
+							<div class="col-xs-1 col-xs-offset-1">&#9830;</div>
 							<div class="col-xs-3">{{item.food}}</div>
-							<div class="col-xs-1 ">*</div>
+							<div class="col-xs-1 ">&#9830;</div>
 							<div class="col-xs-4">{{item.desc}}</div>
-							<div class="col-xs-1">*</div>
+							<div class="col-xs-1">&#9830;</div>
 						</div> <!-- panel-body -->
 					</div> <!-- panel -->
 				</div> <!-- .row -->

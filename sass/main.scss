@@ -1,8 +1,9 @@
-@import "color";
+@import "fonts";
 
 body {
 	background-size: cover;
 	background-image: url("/images/lioness background.jpeg");
+	font: 100%, $font-stack;
 }
 
 
@@ -15,11 +16,10 @@ body {
 }
 
 
-.showAnimalImage {
+.animalDiv {
 
 	.img-circle {
-		margin-top: 15px;
-		margin-left: 25%;
+		margin-top: 60px;
 	}
 }
 

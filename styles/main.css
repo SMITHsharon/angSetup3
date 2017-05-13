@@ -1,14 +1,14 @@
 body {
   background-size: cover;
-  background-image: url("/images/lioness background.jpeg"); }
+  background-image: url("/images/lioness background.jpeg");
+  font: 100%, "Gloria Hallelujah", cursive; }
 
 .buttonDiv li {
   list-style: none;
   padding-top: 15px; }
 
-.showAnimalImage .img-circle {
-  margin-top: 15px;
-  margin-left: 25%; }
+.animalDiv .img-circle {
+  margin-top: 60px; }
 
 .foodPanel {
   background-image: url("/images/amber background.jpeg"); }
