@@ -61,9 +61,15 @@
 		<div ng-show="showFoodList">
 			<div ng-repeat="item in foodItems">
 				<div class="row">
-					<div class="col-xs-8 col-xs-offest-2">
-//starting here
-					</div> <!-- .col -->
+					<div class="panel panel-default foodPanel">
+						<div class="panel-body foodText">
+							<div class="col-xs-1 col-xs-offset-1">*</div>
+							<div class="col-xs-3">{{item.food}}</div>
+							<div class="col-xs-1 ">*</div>
+							<div class="col-xs-4">{{item.desc}}</div>
+							<div class="col-xs-1">*</div>
+						</div> <!-- panel-body -->
+					</div> <!-- panel -->
 				</div> <!-- .row -->
 			</div> <!-- .ng-repeat -->
 		</div> <!-- .ng-show -->

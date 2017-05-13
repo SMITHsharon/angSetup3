@@ -9,3 +9,8 @@ body {
 .showAnimalImage .img-circle {
   margin-top: 15px;
   margin-left: 25%; }
+
+.foodPanel {
+  background-image: url("/images/amber background.jpeg"); }
+  .foodPanel .foodText {
+    text-align: center; }
