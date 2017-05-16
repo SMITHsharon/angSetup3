@@ -11,7 +11,7 @@ This was an exercise to walk through project setup, layering in Angular, and the
 ![Zoe's Fave Animal on Animal Click](https://raw.githubusercontent.com/SMITHsharon/angSetup3/laurenAnimals/screens/Lauren's%20Foods%20on%20Click%20Fave%20Animal.png)
 
 #### Zoe's Fave Foods on Fave Foods Click 
-![Zoe's Fave Foods on Fave Foods Click][https://raw.githubusercontent.com/SMITHsharon/angSetup3/laurenAnimals/screens/Lauren's%20Foods%20on%20Click%20Fave%20Foods.png)
+![Zoe's Fave Foods on Fave Foods Click](https://raw.githubusercontent.com/SMITHsharon/angSetup3/laurenAnimals/screens/Lauren's%20Foods%20on%20Click%20Fave%20Foods.png)
 
 ### Project Specs
 - Complete project setup, including jQuery, Bootstrap, SASS, Angular, Grunt
