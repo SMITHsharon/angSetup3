@@ -1,2 +1,19 @@
 body {
-  background-color: lightblue; }
+  font: 100%, "Indie Flower", cursive;
+  background-size: cover;
+  background-image: url("/images/lioness background.jpeg"); }
+
+.buttonDiv li {
+  list-style: none;
+  padding-top: 15px; }
+
+.animalDiv .img-circle {
+  margin-top: 60px;
+  width: 100%; }
+
+.foodPanel {
+  background-image: url("/images/amber background.jpeg");
+  opacity: 0.6; }
+  .foodPanel .foodText {
+    text-align: center;
+    font-weight: 900; }
