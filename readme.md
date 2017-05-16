@@ -16,7 +16,7 @@ This was an exercise to walk through project setup, layering in Angular, and the
 ### Project Specs
 - Complete project setup, including jQuery, Bootstrap, SASS, Angular, Grunt
 - One controller, `ItemCtrl`, is defined for the app
-- Uses the Angular directive, `ng-click`, `ng-show`, `ng-repeat`
+- Uses the Angular directives, `ng-click`, `ng-show`, `ng-repeat`
 - Three buttons: `Lauren's Fave Animal`, `Fave Foods`, `Clear`
 
 
