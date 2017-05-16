@@ -8,7 +8,7 @@ This was an exercise to walk through project setup, layering in Angular, and the
 ![Lauren's Fave Foods on Launch](https://raw.githubusercontent.com/SMITHsharon/angSetup3/laurenAnimals/screens/Lauren's%20Foods%20on%20Launch.png)
 
 #### Lauren's Fave Animal on Animal Click 
-![Zoe's Fave Animal on AnimalClick]()
+![Zoe's Fave Animal on AnimalClick](https://raw.githubusercontent.com/SMITHsharon/angSetup3/laurenAnimals/screens/Lauren's%20Foods%20on%20Click%20Fave%20Animal.png)
 
 #### Zoe's Fave Foods on Fave Foods Click 
 ![Zoe's Fave Foods on Fave Foods Click](https://raw.githubusercontent.com/SMITHsharon/AngSetup1/zoeFood/screens/Zoe%20Pies%20on%20Click%20Recipe.png)
