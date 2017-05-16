@@ -5,10 +5,10 @@
 This was an exercise to walk through project setup, layering in Angular, and then coding some simple DOM output on Lauren's favorite foods, stored in an array, PLUS her favorite animal. 
 
 #### Lauren's Fave Foods on Launch 
-![Lauren's Fave Foods on Launch]()
+![Lauren's Fave Foods on Launch](https://raw.githubusercontent.com/SMITHsharon/angSetup3/laurenAnimals/screens/Lauren's%20Foods%20on%20Launch.png)
 
 #### Lauren's Fave Animal on Animal Click 
-![Zoe's Fave Animal on AnimalClick](https://raw.githubusercontent.com/SMITHsharon/AngSetup1/zoeFood/screens/Zoe%20Pies%20on%20Try%20This%20Click.png)
+![Zoe's Fave Animal on AnimalClick]()
 
 #### Zoe's Fave Foods on Fave Foods Click 
 ![Zoe's Fave Foods on Fave Foods Click](https://raw.githubusercontent.com/SMITHsharon/AngSetup1/zoeFood/screens/Zoe%20Pies%20on%20Click%20Recipe.png)
